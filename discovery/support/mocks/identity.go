@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	mspprotos "github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
 )
 
 type Identity struct {

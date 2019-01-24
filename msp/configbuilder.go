@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/factory"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

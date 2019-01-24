@@ -12,9 +12,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/viperutil"
-	"github.com/hyperledger/fabric/core/handlers/library"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/viperutil"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/handlers/library"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp/mgmt/testtools"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

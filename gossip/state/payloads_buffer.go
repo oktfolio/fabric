@@ -10,8 +10,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 )
 
 // PayloadsBuffer is used to store payloads into which used to

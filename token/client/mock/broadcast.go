@@ -4,9 +4,9 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/token/client"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	ab "github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/client"
 )
 
 type Broadcast struct {

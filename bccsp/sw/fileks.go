@@ -28,8 +28,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/utils"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

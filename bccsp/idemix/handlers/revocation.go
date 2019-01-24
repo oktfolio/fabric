@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
 	"github.com/pkg/errors"
 )
 

@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset"
 )
 
 func (cpp *ChaincodeProposalPayload) StaticallyOpaqueFields() []string {

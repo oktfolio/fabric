@@ -14,12 +14,12 @@ import (
 	"unicode/utf8"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/protos/utils"
-	"github.com/hyperledger/fabric/token/identity"
-	"github.com/hyperledger/fabric/token/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/customtx"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/token"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/identity"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/ledger"
 	"github.com/pkg/errors"
 )
 

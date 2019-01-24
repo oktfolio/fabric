@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/orderer/common/cluster"
-	"github.com/hyperledger/fabric/orderer/common/cluster/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/cluster"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/cluster/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"google.golang.org/grpc"

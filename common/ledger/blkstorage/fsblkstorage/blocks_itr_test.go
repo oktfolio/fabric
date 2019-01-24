@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/testutil"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
 	"github.com/spf13/viper"
 )
 

@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 )
 
 func init() {

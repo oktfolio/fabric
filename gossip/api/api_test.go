@@ -9,7 +9,7 @@ package api
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
 	"github.com/stretchr/testify/assert"
 )
 

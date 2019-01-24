@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/client"
-	"github.com/hyperledger/fabric/token/client/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/token"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/client"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"

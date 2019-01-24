@@ -1,3 +1,5 @@
+// +build IGNORE
+
 /*
 Copyright IBM Corp. All Rights Reserved.
 
@@ -15,9 +17,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/signer"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/factory"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/signer"
 	"github.com/pkg/errors"
 )
 

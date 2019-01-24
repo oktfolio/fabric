@@ -1,3 +1,5 @@
+// +build IGNORE
+
 /*
 Copyright IBM Corp. All Rights Reserved.
 
@@ -12,11 +14,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
-	fabricmsp "github.com/hyperledger/fabric/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/factory"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/ca"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/csp"
+	fabricmsp "github.com/oktfolio/hyperledger-fabric-gm/msp"
 	"gopkg.in/yaml.v2"
 )
 

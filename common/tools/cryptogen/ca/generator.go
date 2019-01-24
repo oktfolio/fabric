@@ -1,3 +1,5 @@
+// +build IGNORE
+
 /*
 Copyright IBM Corp. All Rights Reserved.
 
@@ -20,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/csp"
 )
 
 type CA struct {

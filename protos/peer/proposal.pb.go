@@ -6,7 +6,7 @@ package peer // import "github.com/hyperledger/fabric/protos/peer"
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import token "github.com/hyperledger/fabric/protos/token"
+import token "github.com/oktfolio/hyperledger-fabric-gm/protos/token"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

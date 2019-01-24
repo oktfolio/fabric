@@ -9,11 +9,11 @@ package mock
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/api"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/comm"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 )
 
 // Mock which aims to simulate socket

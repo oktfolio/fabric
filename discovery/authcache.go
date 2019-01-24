@@ -11,8 +11,8 @@ import (
 	"encoding/hex"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/pkg/errors"
 )
 

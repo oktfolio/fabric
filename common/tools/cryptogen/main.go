@@ -1,3 +1,5 @@
+// +build IGNORE
+
 /*
 Copyright IBM Corp. All Rights Reserved.
 
@@ -14,10 +16,10 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/metadata"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/ca"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/csp"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/metadata"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/cryptogen/msp"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"gopkg.in/yaml.v2"
 )

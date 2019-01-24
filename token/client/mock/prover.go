@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	token "github.com/hyperledger/fabric/protos/token"
+	token "github.com/oktfolio/hyperledger-fabric-gm/protos/token"
 	tokena "github.com/hyperledger/fabric/token"
 	client "github.com/hyperledger/fabric/token/client"
 )

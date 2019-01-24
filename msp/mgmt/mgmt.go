@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/cache"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/factory"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp/cache"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

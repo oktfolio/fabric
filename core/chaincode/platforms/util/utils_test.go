@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	cutil "github.com/hyperledger/fabric/core/container/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/config/configtest"
+	cutil "github.com/oktfolio/hyperledger-fabric-gm/core/container/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
