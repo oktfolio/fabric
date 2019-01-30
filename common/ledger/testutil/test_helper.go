@@ -10,13 +10,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/util"
-	lutils "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	ptestutils "github.com/hyperledger/fabric/protos/testutils"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/configtx/test"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	lutils "github.com/oktfolio/hyperledger-fabric-gm/core/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
+	ptestutils "github.com/oktfolio/hyperledger-fabric-gm/protos/testutils"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

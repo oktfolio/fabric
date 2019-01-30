@@ -5,7 +5,7 @@ import (
 	context "context"
 	sync "sync"
 
-	testpb "github.com/hyperledger/fabric/common/grpclogging/testpb"
+	testpb "github.com/oktfolio/hyperledger-fabric-gm/common/grpclogging/testpb"
 )
 
 type EchoServiceServer struct {

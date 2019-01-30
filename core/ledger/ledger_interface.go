@@ -10,12 +10,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/oktfolio/hyperledger-fabric-gm/common/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset/kvrwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 // Initializer encapsulates dependencies for PeerLedgerProvider

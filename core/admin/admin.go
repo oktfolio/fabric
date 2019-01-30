@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

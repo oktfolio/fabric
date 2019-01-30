@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/ledgerconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/pvtdatapolicy"
 	"github.com/stretchr/testify/assert"
 )
 

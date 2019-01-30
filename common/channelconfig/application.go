@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package channelconfig
 
 import (
-	"github.com/hyperledger/fabric/common/capabilities"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/capabilities"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/pkg/errors"
 )
 

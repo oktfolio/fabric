@@ -15,37 +15,37 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	mc "github.com/hyperledger/fabric/common/mocks/config"
-	lm "github.com/hyperledger/fabric/common/mocks/ledger"
-	"github.com/hyperledger/fabric/common/mocks/scc"
-	"github.com/hyperledger/fabric/common/util"
-	aclmocks "github.com/hyperledger/fabric/core/aclmgmt/mocks"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/committer/txvalidator"
-	mocks2 "github.com/hyperledger/fabric/core/committer/txvalidator/mocks"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	cutils "github.com/hyperledger/fabric/core/container/util"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/v13/mocks"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	corepeer "github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/policy"
-	"github.com/hyperledger/fabric/core/scc/lscc"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/capabilities"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/cauthdsl"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
+	commonerrors "github.com/oktfolio/hyperledger-fabric-gm/common/errors"
+	mc "github.com/oktfolio/hyperledger-fabric-gm/common/mocks/config"
+	lm "github.com/oktfolio/hyperledger-fabric-gm/common/mocks/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/mocks/scc"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	aclmocks "github.com/oktfolio/hyperledger-fabric-gm/core/aclmgmt/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms/golang"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/shim"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/committer/txvalidator"
+	mocks2 "github.com/oktfolio/hyperledger-fabric-gm/core/committer/txvalidator/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccpackage"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/privdata"
+	cutils "github.com/oktfolio/hyperledger-fabric-gm/core/container/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/handlers/validation/api/capabilities"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/handlers/validation/builtin/v13/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	corepeer "github.com/oktfolio/hyperledger-fabric-gm/core/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/policy"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/scc/lscc"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	mspmgmt "github.com/oktfolio/hyperledger-fabric-gm/msp/mgmt"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp/mgmt/testtools"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset/kvrwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
@@ -779,7 +779,7 @@ func TestAlreadyDeployed(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "alreadydeployed"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, true)
 	if err != nil {
@@ -1157,7 +1157,7 @@ func TestValidateUpgradeOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "upgradeok"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, true)
 	if err != nil {
@@ -1220,7 +1220,7 @@ func TestInvalidateUpgradeBadVersion(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "upgradebadversion"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, true)
 	if err != nil {
@@ -1294,7 +1294,7 @@ func validateUpgradeWithCollection(t *testing.T, ccver string, V1_2Validation bo
 	}
 
 	ccname := "mycc"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, true)
 	if err != nil {
@@ -1476,7 +1476,7 @@ func TestValidateUpgradeWithPoliciesOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "upgradewithpoliciesok"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, false)
 	if err != nil {
@@ -1563,7 +1563,7 @@ func validateUpgradeWithNewFailAllIP(t *testing.T, ccver string, v11capability, 
 	// deploy the chaincode with an accept all policy
 
 	ccname := "mycc"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, false)
 	if err != nil {
@@ -1640,7 +1640,7 @@ func TestValidateUpgradeWithPoliciesFail(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "upgradewithpoliciesfail"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/oktfolio/hyperledger-fabric-gm/examples/chaincode/go/example02/cmd"
 
 	cds, err := constructDeploymentSpec(ccname, path, ccver, [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}, false)
 	if err != nil {

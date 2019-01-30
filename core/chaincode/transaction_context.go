@@ -9,10 +9,10 @@ package chaincode
 import (
 	"sync"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/oktfolio/hyperledger-fabric-gm/common/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/privdata"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 type TransactionContext struct {

@@ -9,9 +9,9 @@ package pvtdatastorage
 import (
 	"math"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/pvtdatapolicy"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset"
 	"github.com/willf/bitset"
 )
 

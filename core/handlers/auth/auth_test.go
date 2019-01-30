@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

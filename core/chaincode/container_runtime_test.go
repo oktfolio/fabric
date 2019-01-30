@@ -9,13 +9,13 @@ package chaincode_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/accesscontrol"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/accesscontrol"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/container"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/container/ccintf"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

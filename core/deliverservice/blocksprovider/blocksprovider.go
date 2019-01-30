@@ -12,14 +12,14 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/gossip/api"
-	gossipcommon "github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip_proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/api"
+	gossipcommon "github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	gossip_proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
 )
 
 // LedgerInfo an adapter to provide the interface to query

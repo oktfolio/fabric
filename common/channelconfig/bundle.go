@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package channelconfig
 
 import (
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/cauthdsl"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/configtx"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/pkg/errors"
 )
 

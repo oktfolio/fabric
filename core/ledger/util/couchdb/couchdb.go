@@ -26,8 +26,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/ledgerconfig"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

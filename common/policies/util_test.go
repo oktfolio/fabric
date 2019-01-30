@@ -9,7 +9,7 @@ package policies
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,10 +17,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics/disabled"
+	ledgertestutil "github.com/oktfolio/hyperledger-fabric-gm/core/ledger/testutil"
+	"github.com/oktfolio/hyperledger-fabric-gm/integration/runner"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

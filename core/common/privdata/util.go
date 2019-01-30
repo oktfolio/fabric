@@ -8,10 +8,10 @@ package privdata
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/cauthdsl"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/pkg/errors"
 )
 

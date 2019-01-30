@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blkstorage"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

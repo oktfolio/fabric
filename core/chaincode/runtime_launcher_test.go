@@ -9,11 +9,11 @@ package chaincode_test
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/fake"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics/metricsfakes"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/fake"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccprovider"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"

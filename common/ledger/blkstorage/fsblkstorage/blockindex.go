@@ -11,12 +11,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/util"
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
-	ledgerUtil "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blkstorage"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/util/leveldbhelper"
+	ledgerUtil "github.com/oktfolio/hyperledger-fabric-gm/core/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/pkg/errors"
 )
 

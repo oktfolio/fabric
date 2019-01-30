@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package peer
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/peer"
 )
 
 type MockSupportImpl struct {

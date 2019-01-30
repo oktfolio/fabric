@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/cauthdsl"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/handlers/validation/api/state"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset/kvrwset"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

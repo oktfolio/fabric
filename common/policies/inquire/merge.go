@@ -9,7 +9,7 @@ package inquire
 import (
 	"reflect"
 
-	"github.com/hyperledger/fabric/common/policies"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies"
 )
 
 // ComparablePrincipalSets aggregate ComparablePrincipalSets

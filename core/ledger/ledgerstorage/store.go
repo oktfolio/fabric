@@ -9,15 +9,15 @@ package ledgerstorage
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatastorage"
-	lutil "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blkstorage"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blkstorage/fsblkstorage"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/ledgerconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/pvtdatapolicy"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/pvtdatastorage"
+	lutil "github.com/oktfolio/hyperledger-fabric-gm/core/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 	"github.com/pkg/errors"
 )
 

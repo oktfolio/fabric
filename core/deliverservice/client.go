@@ -14,10 +14,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/comm"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/deliverservice/blocksprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
 	"google.golang.org/grpc"
 )
 

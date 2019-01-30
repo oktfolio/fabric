@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package peer
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
 )
 
 var supportFactory SupportFactory

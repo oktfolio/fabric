@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/util/leveldbhelper"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/ledgerconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/pvtdatapolicy"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset"
 	"github.com/willf/bitset"
 )
 

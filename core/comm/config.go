@@ -11,8 +11,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )

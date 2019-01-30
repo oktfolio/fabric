@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package v13
 
 import (
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	commonerrors "github.com/oktfolio/hyperledger-fabric-gm/common/errors"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 // StateBasedValidator is used to validate a transaction that performs changes to

@@ -11,10 +11,10 @@ import (
 	"sort"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/cauthdsl"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	mb "github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/pkg/errors"
 )
 

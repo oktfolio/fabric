@@ -9,16 +9,16 @@ package endorsement
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/graph"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/policies/inquire"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	. "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/chaincode"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/graph"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies/inquire"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/api"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
+	. "github.com/oktfolio/hyperledger-fabric-gm/gossip/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
 	"github.com/pkg/errors"
 )
 

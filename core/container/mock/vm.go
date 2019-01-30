@@ -5,8 +5,8 @@ import (
 	context "context"
 	sync "sync"
 
-	container "github.com/hyperledger/fabric/core/container"
-	ccintf "github.com/hyperledger/fabric/core/container/ccintf"
+	container "github.com/oktfolio/hyperledger-fabric-gm/core/container"
+	ccintf "github.com/oktfolio/hyperledger-fabric-gm/core/container/ccintf"
 )
 
 type VM struct {

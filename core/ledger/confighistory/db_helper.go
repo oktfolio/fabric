@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/pkg/errors"
 )
 

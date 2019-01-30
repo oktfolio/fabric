@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package endorser
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/endorser"
-	"github.com/hyperledger/fabric/core/ledger"
-	mc "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/endorser"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	mc "github.com/oktfolio/hyperledger-fabric-gm/core/mocks/ccprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -9,9 +9,9 @@ package cc
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/chaincode"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/cceventmgmt"
 	"github.com/pkg/errors"
 )
 

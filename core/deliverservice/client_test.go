@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/core/deliverservice/mocks"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/comm"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/deliverservice/blocksprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/deliverservice/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

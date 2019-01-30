@@ -9,7 +9,7 @@ package ledgerconfig
 import (
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/core/config"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/config"
 	"github.com/spf13/viper"
 )
 

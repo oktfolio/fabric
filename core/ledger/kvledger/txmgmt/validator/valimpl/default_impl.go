@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package valimpl
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/internal"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/validator"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/validator/internal"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/validator/statebasedval"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 var logger = flogging.MustGetLogger("valimpl")

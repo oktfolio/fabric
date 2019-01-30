@@ -21,14 +21,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics/disabled"
 
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/core/ledger/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/configtx/test"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms/golang"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/cceventmgmt"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/mock"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

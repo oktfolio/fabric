@@ -11,12 +11,12 @@ import (
 	"sync/atomic"
 
 	"github.com/golang/protobuf/proto"
-	gossip_common "github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip_proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	gossip_common "github.com/oktfolio/hyperledger-fabric-gm/gossip/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	gossip_proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"google.golang.org/grpc"
 )
 

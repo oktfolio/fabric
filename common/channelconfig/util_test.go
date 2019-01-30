@@ -9,9 +9,9 @@ package channelconfig
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	mspprotos "github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

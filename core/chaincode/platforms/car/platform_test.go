@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/car"
-	"github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms/car"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/testutil"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 var _ = platforms.Platform(&car.Platform{})

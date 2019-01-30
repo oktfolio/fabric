@@ -23,11 +23,11 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/factory"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/common/ccpackage"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 //----- SignedCDSData ------

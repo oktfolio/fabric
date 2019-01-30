@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package token
 
 import (
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/handlers/validation/api"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 type ValidationFactory struct {

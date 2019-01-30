@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms/java"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/config/configtest"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/container/util"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

@@ -10,10 +10,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/mock"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
 )
 

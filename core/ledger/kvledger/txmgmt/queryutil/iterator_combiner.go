@@ -9,9 +9,9 @@ package queryutil
 import (
 	"fmt"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
+	commonledger "github.com/oktfolio/hyperledger-fabric-gm/common/ledger"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/ledger/queryresult"
 )
 
 type itrCombiner struct {

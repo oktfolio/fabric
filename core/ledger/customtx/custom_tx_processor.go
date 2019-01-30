@@ -9,7 +9,7 @@ package customtx
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 var processors Processors

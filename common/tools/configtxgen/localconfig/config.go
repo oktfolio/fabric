@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/viperutil"
-	cf "github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/policies"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/viperutil"
+	cf "github.com/oktfolio/hyperledger-fabric-gm/core/config"
+	"github.com/oktfolio/hyperledger-fabric-gm/msp"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer/etcdraft"
 	"github.com/spf13/viper"
 )
 

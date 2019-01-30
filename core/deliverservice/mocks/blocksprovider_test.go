@@ -23,10 +23,10 @@ import (
 	"time"
 
 	pb "github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/deliverservice/blocksprovider"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
 	"github.com/stretchr/testify/assert"
 )
 

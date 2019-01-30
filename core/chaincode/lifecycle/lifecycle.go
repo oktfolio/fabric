@@ -9,7 +9,7 @@ package lifecycle
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/persistence"
 	"github.com/pkg/errors"
 )
 

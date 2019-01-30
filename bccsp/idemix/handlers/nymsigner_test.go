@@ -10,7 +10,7 @@ import (
 
 	"github.com/oktfolio/hyperledger-fabric-gm/bccsp"
 	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/idemix/handlers"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers/mock"
+	"github.com/oktfolio/hyperledger-fabric-gm/bccsp/idemix/handlers/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

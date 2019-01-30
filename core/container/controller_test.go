@@ -9,11 +9,11 @@ package container_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/container"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/platforms/golang"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/container"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

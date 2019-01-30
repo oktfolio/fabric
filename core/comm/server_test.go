@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/core/comm"
-	testpb "github.com/hyperledger/fabric/core/comm/testdata/grpc"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/crypto/tlsgen"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/comm"
+	testpb "github.com/oktfolio/hyperledger-fabric-gm/core/comm/testdata/grpc"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

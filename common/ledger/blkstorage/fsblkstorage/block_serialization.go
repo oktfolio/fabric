@@ -18,9 +18,9 @@ package fsblkstorage
 
 import (
 	"github.com/golang/protobuf/proto"
-	ledgerutil "github.com/hyperledger/fabric/common/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	ledgerutil "github.com/oktfolio/hyperledger-fabric-gm/common/ledger/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 )
 
 type serializedBlockInfo struct {

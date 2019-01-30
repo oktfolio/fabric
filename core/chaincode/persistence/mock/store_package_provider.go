@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	chaincode "github.com/hyperledger/fabric/common/chaincode"
+	chaincode "github.com/oktfolio/hyperledger-fabric-gm/common/chaincode"
 )
 
 type StorePackageProvider struct {
