@@ -5,8 +5,8 @@ import (
 	sync "sync"
 
 	token "github.com/oktfolio/hyperledger-fabric-gm/protos/token"
-	tokena "github.com/hyperledger/fabric/token"
-	client "github.com/hyperledger/fabric/token/client"
+	tokena "github.com/oktfolio/hyperledger-fabric-gm/token"
+	client "github.com/oktfolio/hyperledger-fabric-gm/token/client"
 )
 
 type Prover struct {

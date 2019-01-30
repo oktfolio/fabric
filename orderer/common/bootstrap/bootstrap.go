@@ -17,7 +17,7 @@ limitations under the License.
 package bootstrap
 
 import (
-	ab "github.com/hyperledger/fabric/protos/common"
+	ab "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 // Helper defines the functions a bootstrapping implementation should provide.

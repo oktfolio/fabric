@@ -91,7 +91,7 @@ func NewCA(baseDir, org, name, country, province, locality, orgUnit, streetAddre
 				if err == nil {
 					ca = &CA{
 						Name: name,
-						//Signer:             signer,
+						Signer:             signer,
 						//SignCert:           x509Cert,
 						SignSm2Cert:        x509Cert,
 						Sm2Key:             priv,
@@ -111,8 +111,8 @@ func NewCA(baseDir, org, name, country, province, locality, orgUnit, streetAddre
 
 // SignCertificate creates a signed certificate based on a built-in template
 // and saves it in baseDir/name
-func (ca *CA) SignCertificate(baseDir, name string, ous, sans []string, pub *sm2.PublicKey,
-	ku x509.KeyUsage, eku []x509.ExtKeyUsage) (*x509.Certificate, error) {
+func (ca *CA) SignCertificate(baseDir, name string, sans []string, pub *sm2.PublicKey,
+	ku x509.KeyUsage, eku []x509.ExtKeyUsage) (*sm2.Certificate, error) {
 
 	template := x509Template()
 	template.KeyUsage = ku
@@ -122,7 +122,7 @@ func (ca *CA) SignCertificate(baseDir, name string, ous, sans []string, pub *sm2
 	subject := subjectTemplateAdditional(ca.Country, ca.Province, ca.Locality, ca.OrganizationalUnit, ca.StreetAddress, ca.PostalCode)
 	subject.CommonName = name
 
-	subject.OrganizationalUnit = append(subject.OrganizationalUnit, ous...)
+	// subject.OrganizationalUnit = append(subject.OrganizationalUnit, ous...)
 
 	template.Subject = subject
 	for _, san := range sans {

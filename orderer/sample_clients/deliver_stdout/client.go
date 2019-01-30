@@ -10,14 +10,14 @@ import (
 	"math"
 	"os"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/tools/protolator"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/crypto"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/localmsp"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/tools/protolator"
+	mspmgmt "github.com/oktfolio/hyperledger-fabric-gm/msp/mgmt"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/localconfig"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	ab "github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"google.golang.org/grpc"
 )
 

@@ -11,7 +11,7 @@ import (
 	"sync"
 
 	"github.com/oktfolio/hyperledger-fabric-gm/discovery/support/acl"
-	common2 "github.com/hyperledger/fabric/protos/common"
+	common2 "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 type Evaluator struct {

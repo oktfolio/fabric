@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/committer"
-	"github.com/hyperledger/fabric/core/ledger"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
+	util2 "github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/committer"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	privdatacommon "github.com/oktfolio/hyperledger-fabric-gm/gossip/privdata/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	gossip2 "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

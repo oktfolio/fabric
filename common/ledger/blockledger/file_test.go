@@ -20,9 +20,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	. "github.com/hyperledger/fabric/common/ledger/blockledger"
-	fileledger "github.com/hyperledger/fabric/common/ledger/blockledger/file"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	. "github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blockledger"
+	fileledger "github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blockledger/file"
+	genesisconfig "github.com/oktfolio/hyperledger-fabric-gm/common/tools/configtxgen/localconfig"
 )
 
 func init() {

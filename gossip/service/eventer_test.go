@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 const testChainID = "foo"

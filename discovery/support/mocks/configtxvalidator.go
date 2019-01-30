@@ -4,8 +4,8 @@ package mocks
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/configtx"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/configtx"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 type ConfigtxValidator struct {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

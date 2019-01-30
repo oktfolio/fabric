@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockchannelconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	mockchannelconfig "github.com/oktfolio/hyperledger-fabric-gm/common/mocks/config"
+	mockpolicies "github.com/oktfolio/hyperledger-fabric-gm/common/mocks/policies"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

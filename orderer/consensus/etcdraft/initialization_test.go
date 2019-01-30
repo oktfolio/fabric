@@ -9,10 +9,10 @@ package etcdraft
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/orderer/common/cluster"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/multichannel"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/comm"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/cluster"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/localconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/multichannel"
 	"github.com/stretchr/testify/assert"
 )
 

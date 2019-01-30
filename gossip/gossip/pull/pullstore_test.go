@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/gossip/algo"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/comm"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/discovery"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/gossip/algo"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/util"
+	proto "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

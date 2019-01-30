@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	deliver "github.com/hyperledger/fabric/common/deliver"
-	common "github.com/hyperledger/fabric/protos/common"
+	deliver "github.com/oktfolio/hyperledger-fabric-gm/common/deliver"
+	common "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 type Receiver struct {

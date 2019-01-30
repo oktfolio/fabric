@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/token/transaction"
+	"github.com/oktfolio/hyperledger-fabric-gm/token/transaction"
 )
 
 type TMSManager struct {

@@ -4,11 +4,11 @@ package mocks
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/channelconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/blockcutter"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/common/msgprocessor"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/consensus"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 type FakeConsenterSupport struct {

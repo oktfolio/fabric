@@ -6,8 +6,8 @@ package discovery // import "github.com/hyperledger/fabric/protos/discovery"
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import gossip "github.com/hyperledger/fabric/protos/gossip"
-import msp "github.com/hyperledger/fabric/protos/msp"
+import gossip "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
+import msp "github.com/oktfolio/hyperledger-fabric-gm/protos/msp"
 
 import (
 	context "golang.org/x/net/context"

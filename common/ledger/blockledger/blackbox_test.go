@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/ledger/blockledger"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	ab "github.com/oktfolio/hyperledger-fabric-gm/protos/orderer"
 )
 
 type ledgerTestable interface {

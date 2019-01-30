@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/gossip/privdata/mocks"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
+	util2 "github.com/oktfolio/hyperledger-fabric-gm/common/util"
+	"github.com/oktfolio/hyperledger-fabric-gm/core/ledger"
+	privdatacommon "github.com/oktfolio/hyperledger-fabric-gm/gossip/privdata/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/gossip/privdata/mocks"
+	"github.com/oktfolio/hyperledger-fabric-gm/protos/common"
+	gossip2 "github.com/oktfolio/hyperledger-fabric-gm/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package kafka
 
 import (
-	"github.com/hyperledger/fabric/common/metrics"
-	localconfig "github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/metrics"
+	localconfig "github.com/oktfolio/hyperledger-fabric-gm/orderer/common/localconfig"
+	"github.com/oktfolio/hyperledger-fabric-gm/orderer/consensus"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 
 	"github.com/Shopify/sarama"
 	logging "github.com/op/go-logging"

@@ -11,8 +11,8 @@ package msgprocessor
 import (
 	"errors"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 const (

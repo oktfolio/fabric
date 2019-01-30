@@ -10,8 +10,8 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/oktfolio/hyperledger-fabric-gm/common/flogging"
+	cb "github.com/oktfolio/hyperledger-fabric-gm/protos/common"
 )
 
 // This governs the max number of created blocks in-flight; i.e. blocks

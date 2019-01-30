@@ -11,7 +11,7 @@ import (
 	"strconv"
 
 	"github.com/oktfolio/hyperledger-fabric-gm/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/oktfolio/hyperledger-fabric-gm/protos/peer"
 )
 
 // SimpleChaincode example simple Chaincode implementation
